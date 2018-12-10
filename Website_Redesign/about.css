@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #FFF3EA;
+}
+
+a.nav_links {
+    margin: 0 15px;
+}
+
+a.nav_links:link {
+    text-decoration: none;
+    color: #004A65;
+}
+
+a.nav_links:visited {
+    text-decoration: none;
+    color: #004A65;
+}
+
+a.nav_links:hover {
+    text-decoration: none;
+    color: #c1b5ae;
+}
+
+a.nav_links:active {
+    text-decoration: none;
+    color: #c1b5ae;
+}
+
+.container {
+    width: 1180px;
+    height: 1800px;
+    background-color: #FFF3EA;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    margin-left: 110px;
+    margin-top: 40px;
+    position: absolute;
+    -webkit-filter: brightness(70%);
+    z-index: 1;
+
+}
+
+.nav {
+    width: 500px;
+    height: 30px;
+    margin-left: 310px;
+    margin-top: 75px;
+    color: #004A65;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    letter-spacing: 3px;
+    text-align: center;
+    z-index: 1;
+}
+
+.annies_history {
+    width: 740px;
+    height: 100px;
+    margin-left: 230px;
+    margin-top: 150px;
+    position: absolute;
+    letter-spacing: 9px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: #004A65;
+}
+
+.first_paragraph {
+    width: 820px;
+    height: 180px;
+    margin-left: 190px;
+    margin-top: 270px;
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    color: #000000;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.second_paragraph {
+    width: 820px;
+    height: 180px;
+    margin-left: 190px;
+    margin-top: 770px;
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    color: #000000;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.third_paragraph {
+    width: 820px;
+    height: 180px;
+    margin-left: 190px;
+    margin-top: 1270px;
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    color: #000000;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.first_image {
+    width: 820px;
+    height: 260px;
+    margin-left: 190px;
+    margin-top: 460px;
+    position: absolute;
+}
+
+.second_image {
+    width: 820px;
+    height: 260px;
+    margin-left: 190px;
+    margin-top: 960px;
+    position: absolute;
+}
+
+.third_image {
+    width: 820px;
+    height: 260px;
+    margin-left: 190px;
+    margin-top: 1460px;
+    position: absolute;
+}
+
+.footer {
+    height: 249px;
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, .4)
+}
+
+.footer_text {
+    width: 600px;
+    height: 40px;
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 160px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-align: center;
+    opacity: .4;
+    color: #004A65;
+    z-index: 2;
+}
+
+.facebook {
+    width: 38px;
+    height: 38px;
+    margin-left: 657px;
+    margin-top: 90px;
+    position: absolute;
+    opacity: .3;
+}
+
+.instagram {
+    width: 38px;
+    height: 38px;
+    margin-left: 711px;
+    margin-top: 90px;
+    position: absolute;
+    opacity: .3;
+}
+
+.yelpsign {
+    width: 38px;
+    height: 38px;
+    margin-left: 765px;
+    margin-top: 90px;
+    position: absolute;
+    opacity: .3;
+}
